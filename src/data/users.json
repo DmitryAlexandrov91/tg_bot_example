@@ -1,0 +1,70 @@
+[
+    {
+        "first_name": "Иван",
+        "last_name": "Менеджеров",
+        "patronymic": "Алексеевич",
+        "role": "MANAGER",
+        "tg_id": 10001,
+        "email": "ivan@example.com",
+        "phone_number": "+7 900 123-00-01",
+        "timezone": "Europe/Moscow",
+        "restaurant_id": 1
+    },
+    {
+        "first_name": "Елена",
+        "last_name": "Менеджер",
+        "patronymic": "Викторовна",
+        "role": "MANAGER",
+        "tg_id": 10002,
+        "email": "elena@example.com",
+        "phone_number": "+7 900 123-00-02",
+        "timezone": "Europe/Moscow",
+        "restaurant_id": 2
+    },
+    {
+        "first_name": "Матвей",
+        "last_name": "СтажерИнтерн",
+        "patronymic": "Сергеевич",
+        "role": "USER",
+        "tg_id": 1102,
+        "email": "mikhail@example.com",
+        "phone_number": "+7 900 123-00-03",
+        "timezone": "Europe/Moscow",
+        "restaurant_id": 1,
+        "manager_id": 1
+    },
+    {
+        "first_name": "Ольга",
+        "last_name": "Стажерова",
+        "patronymic": "Ивановна",
+        "role": "USER",
+        "tg_id": 20001,
+        "email": "olga@example.com",
+        "phone_number": "+7 900 123-00-11",
+        "timezone": "Europe/Moscow",
+        "restaurant_id": 1,
+        "manager_id": 1
+    },
+    {
+        "first_name": "Василий",
+        "last_name": "GreatIntern",
+        "patronymic": "Павлович",
+        "role": "USER",
+        "tg_id": 20002,
+        "email": "dmitry@example.com",
+        "phone_number": "+7 900 123-00-12",
+        "timezone": "Europe/Moscow",
+        "restaurant_id": 2,
+        "manager_id": 2
+    },
+    {
+        "first_name": "Админ",
+        "last_name": "Администраторов",
+        "patronymic": "Админович",
+        "role": "ADMIN",
+        "tg_id": 30001,
+        "email": "admin@example.com",
+        "phone_number": "+7 900 123-00-99",
+        "timezone": "Europe/Moscow"
+    }
+]

@@ -1,0 +1,672 @@
+<mxfile host="65bd71144e">
+    <diagram id="InWti7LvjvaDPQ_T6oEl" name="Page-1">
+        <mxGraphModel dx="3108" dy="2681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="MANAGER&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1111" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.945;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="90" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="USER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="0.1351" y="-2" relative="1" as="geometry">
+                        <mxPoint y="-17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="112" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1960" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="159" value="ADMIN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="10" vertex="1" connectable="0">
+                    <mxGeometry x="0.164" y="1" relative="1" as="geometry">
+                        <mxPoint x="-72" y="-24" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="/start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="-120" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Добро пожаловать в панель управления Менеджера" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="180" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Приветствую, стажёр{имя}!&lt;br&gt;Выбери нужный пункт." style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-410" y="60" width="120" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;" parent="1" source="75" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-540" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="текущий статус дорожной карты" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-410" y="115" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="написать сообщение менеджеру" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-410" y="165" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="edgeStyle=none;html=1;" parent="1" source="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-350" y="275.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="эту кнопку нажимать в крайнем случае" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-410" y="205" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Вы точно хотите отправить запрос на прекращение стажировки?" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-480" y="272.5" width="240" height="62.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="да, решено, я не хочу продолжать стажировку" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-360" y="335" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="конечно нет! просто стало интересно что это за кнопка..." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-480" y="335" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;div&gt;Пройдено n из n контрольных точек&lt;br&gt;Список КТ со статусами&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-660" y="97.5" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="-660" y="207.5" width="120" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;div&gt;Добро пожаловать в панель администратора, {имя}&lt;/div&gt;&lt;div&gt;С чем будем работать?&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2280" y="-20" width="240" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="113" target="123" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;font color=&quot;#000000&quot;&gt;пользователи&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2280" y="45" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="" style="edgeStyle=none;html=1;" parent="1" source="119" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1950" y="97.81999999999982" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="&lt;font color=&quot;#000000&quot;&gt;создать нового&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2030" y="77.82" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2400" y="105" as="sourcePoint"/>
+                        <mxPoint x="2400" y="105" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="459" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="121" target="239">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="&lt;font color=&quot;#000000&quot;&gt;работаем с существующим&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2030" y="119.69" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="&lt;div&gt;Создать нового пользователя или работаем с существующим?&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2030" y="20.319999999999993" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="&lt;font color=&quot;#000000&quot;&gt;заблокировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2180" y="621.25" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="" style="edgeStyle=none;html=1;" parent="1" source="127" target="439" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="&lt;font color=&quot;#000000&quot;&gt;редактировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2180" y="581.25" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="&lt;div&gt;Выберите действие с дорожной картой пользователя&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2180" y="523.75" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2180" y="661.25" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="&lt;font color=&quot;#000000&quot;&gt;заблокировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1905" y="629.37" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="&lt;font color=&quot;#000000&quot;&gt;редактировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1725" y="629.37" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="&lt;div&gt;Выберите действие с пользователем&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1725" y="571.87" width="360" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="&lt;font color=&quot;#000000&quot;&gt;заблокировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3530" y="208.12" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="&lt;font color=&quot;#000000&quot;&gt;редактировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3350" y="208.12" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="&lt;div&gt;Выберите действие с&amp;nbsp; рестораном&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3350" y="150.62" width="360" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3350" y="288.12" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="182" edge="1" target="188">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2600" y="105" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="182" value="&lt;font color=&quot;#000000&quot;&gt;рестораны&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2280" y="85" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1770" y="104.23000000000002" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" style="edgeStyle=none;html=1;entryX=0;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="186" target="204" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="&lt;font color=&quot;#000000&quot;&gt;создать новый&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2870" y="57.5" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="&lt;font color=&quot;#000000&quot;&gt;работаем с существующим&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2870" y="99.37" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="&lt;div&gt;Создать новый ресторан или работаем с существующим?&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2870" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2870" y="139.37" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="&lt;div&gt;Тут логика создания нового юзера&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1770" y="61.41" width="180" height="42.82" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1860" y="104.23000000000002" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="&lt;font color=&quot;#000000&quot;&gt;отправить ссылку приглашение&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1725" y="669.37" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1725" y="709.37" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1905" y="709.37" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2030" y="161.87" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3130" y="103.13999999999999" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="&lt;div&gt;Тут логика создания нового ресторана&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3130" y="60.31999999999999" width="180" height="42.82" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3220" y="103.13999999999999" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2180" y="691.25" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="Выберите пользователя" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1781" y="361.87" width="240" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1781" y="469.37" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1901" y="469.37" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3530" y="288.12" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="Выберите дорожную карту пользователя" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2150" y="350.62" width="240" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="2150" y="448.1199999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2270" y="448.1199999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="здесь много кнопок с юзерами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1781" y="426.87" width="240" height="42.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="здесь много кнопок с дорожными картами юзера" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="2150" y="418.1199999999999" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="Выберите ресторан" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1781" y="174.37" width="240" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1781" y="281.87" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1901" y="281.87" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="здесь много кнопок с ресторанами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1781" y="239.37" width="240" height="42.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="240" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="1851" y="331.87" as="sourcePoint"/>
+                        <mxPoint x="1901" y="358.87" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="244" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="1901" y="501.87" as="sourcePoint"/>
+                        <mxPoint x="1901" y="571.87" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="253" style="edgeStyle=none;html=1;" parent="1" source="245" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2670" y="328.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="245" value="&lt;font color=&quot;#000000&quot;&gt;создать новую&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="308.75" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="&lt;font color=&quot;#000000&quot;&gt;работаем с существующей&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="350.6199999999999" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="&lt;div&gt;Создать новую дорожную карту или работаем с существующей?&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="251.25" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="390.6199999999999" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="420.6199999999999" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" style="edgeStyle=none;html=1;entryX=1.007;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="246" target="233" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="&lt;div&gt;Здесь логика создания новой ДК&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2670" y="308.75" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2670" y="366.2499999999999" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2670" y="396.25" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="235" target="129" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="2270" y="483.75" as="sourcePoint"/>
+                        <mxPoint x="2320" y="493.75" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="260" value="Выберите ресторан" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3055" y="186.25" width="240" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="3055" y="293.75" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3175" y="293.75" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="здесь много кнопок с ресторанами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="3055" y="251.25" width="240" height="42.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="&lt;font color=&quot;#000000&quot;&gt;заблокировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3360" y="827.81" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" value="" style="edgeStyle=none;html=1;entryX=1.03;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="267" target="441" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="&lt;font color=&quot;#000000&quot;&gt;редактировать&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3360" y="787.81" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="269" value="&lt;div&gt;Выберите действие с шаблоном дорожной карты&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3360" y="730.31" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3360" y="867.81" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3360" y="897.81" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="272" value="&lt;div&gt;Создать новую дорожную карту или работаем с существующей?&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="251.25" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="273" value="&lt;font color=&quot;#000000&quot;&gt;создать новую&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2440" y="308.75" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="" style="edgeStyle=none;html=1;" parent="1" source="274" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3333" y="568.44" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="274" value="&lt;font color=&quot;#000000&quot;&gt;работаем с существующим&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3043" y="548.4399999999998" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="275" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3043" y="588.4399999999998" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3043" y="618.4399999999998" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="277" value="&lt;div&gt;Создать новый шаблон или работаем с существующей?&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3043" y="450.94" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="283" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.636;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3042.8199999999997" y="543.8800000000001" as="sourcePoint"/>
+                        <mxPoint x="3010" y="543.44" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="278" value="&lt;font color=&quot;#000000&quot;&gt;создать новый&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3043" y="508.44" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="280" value="&lt;div&gt;Здесь логика создания нового шаблона ДК&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2830" y="533.44" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="281" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2830" y="590.9399999999998" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="2830" y="620.94" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="286" value="Выберите шаблон ДК ресторана" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3330" y="543.44" width="240" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="3330" y="640.9399999999998" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="288" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3450" y="640.9399999999998" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="289" value="здесь много кнопок с шаблонами ДК&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="3330" y="610.9399999999998" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="290" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="269" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="3450" y="673.44" as="sourcePoint"/>
+                        <mxPoint x="3500" y="693.44" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="339" value="" style="edgeStyle=none;html=1;" parent="1" source="297" target="336" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="297" value="стажеры и дорожные карты" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="220" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="шаблоны дорожных карт" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="250" width="220" height="28.43" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="тесты" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="278.43" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="Выберите стажёра" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="220" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="337" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="287.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="338" value="кнопки со стажёрами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="260" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" value="Выберите пункт" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="266.25" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" value="заблокировать стажёра" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="381.25" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" value="написать сообщение" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="306.25" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" value="статус прохождения дорожной карты" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="306.25" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="421.25" width="110" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="347" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="421.25" width="110" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="349" value="" style="endArrow=classic;html=1;" parent="1" source="341" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="461.25" as="sourcePoint"/>
+                        <mxPoint x="1300" y="411.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="350" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="338" target="340" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="913.33" y="276.40999999999997" as="sourcePoint"/>
+                        <mxPoint x="909.996666666667" y="236.41" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="341" value="досрочное прекращение стажировки" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="381.25" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="351" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="332" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="280" as="sourcePoint"/>
+                        <mxPoint x="400" y="264" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="375" value="&lt;div&gt;логика создания нового теста&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="675" y="439.37" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" value="Создать новый тест или работаем с существующим?" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="401.87" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="396" value="" style="edgeStyle=none;html=1;" parent="1" source="389" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="675" y="456.87" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="389" value="создать" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="441.87" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="509.37" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="509.37" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="394" value="&lt;font color=&quot;#000000&quot;&gt;работаем с существующим&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="471.87" width="170" height="37.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="635" y="499.37" as="sourcePoint"/>
+                        <mxPoint x="685" y="561.87" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="400" value="Выберите пункт" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="585" y="711.87" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="402" value="заблокировать" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="751.87" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="403" value="редактировать" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="585" y="751.87" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="404" value="назад" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="585" y="789.37" width="110" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="405" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="789.37" width="110" height="32.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="695" y="779.37" as="sourcePoint"/>
+                        <mxPoint x="695" y="779.37" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="408" value="Выберите тест" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="564.37" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="409" value="кнопки с тестами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="604.37" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="605" y="634.37" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="411" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="634.37" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="412" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="400" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="695" y="664.37" as="sourcePoint"/>
+                        <mxPoint x="695" y="696.87" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="413" value="Выберите шаблон для редактирования" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="236.87000000000012" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="414" value="кнопки с шаблонами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="276.8700000000001" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="415" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="306.8700000000001" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="416" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="306.8700000000001" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="417" value="&lt;div&gt;Логика&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;редактирования&amp;nbsp;&lt;/span&gt;шаблона&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="377.5" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="418" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="320" y="337.5000000000001" as="sourcePoint"/>
+                        <mxPoint x="320" y="377.5000000000001" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="419" style="edgeStyle=none;html=1;" parent="1" source="333" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="420" value="редактировать дорожную карту" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="346.25" width="110" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" value="назначить дорожную карту" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="346.25" width="110" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="422" value="&lt;div&gt;Пройдено n из n контрольных точек&lt;br&gt;Список КТ со статусами&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="301.87" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="423" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="411.87" width="120" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.005;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="344" target="422" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1190" y="325.4693498684706" as="sourcePoint"/>
+                        <mxPoint x="1138.56" y="327.0400000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="425" value="Выберите шаблон дорожной карты" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="479.3700000000001" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="426" value="кнопки с шаблонами" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="519.3700000000001" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="427" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="549.3700000000001" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="428" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="549.3700000000001" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="429" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="1080" y="579.3700000000001" as="sourcePoint"/>
+                        <mxPoint x="1080" y="619.3700000000001" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="430" value="&lt;div&gt;Логика создания(назначения) ДК на основе имеющихся шаблонов&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="616.8700000000001" width="170" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.763;entryY=-0.084;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="421" target="425" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1130" y="400.90999999999997" as="sourcePoint"/>
+                        <mxPoint x="1130" y="470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1130" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="432" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="420" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1560" y="362.04999999999995" as="sourcePoint"/>
+                        <mxPoint x="1580" y="445.0000000000001" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1580" y="364"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="433" value="Выберите дорожную карту" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1510" y="447.5000000000001" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="434" value="кнопки с ДК" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1510" y="487.5000000000001" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="435" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;назад&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1510" y="517.5000000000001" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="436" value="в главное меню" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="1600" y="517.5000000000001" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="437" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="1600" y="547.5000000000001" as="sourcePoint"/>
+                        <mxPoint x="1600" y="587.5000000000001" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="438" value="&lt;div&gt;Логика редактирования ДК&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1520" y="585.0000000000001" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="439" value="&lt;div&gt;Логика редактирования ДК, в том числе с возможностью отредактировать каждую КТ внутри ДК&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="2420" y="572.5" width="180" height="57.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="441" value="&lt;div&gt;Логика редактирования шалона ДК, в том числе с возможностью отредактировать каждый шаблон КТ внутри шаблона ДК&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3140" y="779.06" width="180" height="89.38" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="443" target="447">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="тесты&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="3350" y="248.12" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" value="логика&amp;nbsp; редактирования связанных с рестораном тестов" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="3780" y="157.5" width="150" height="82.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="460" style="edgeStyle=none;html=1;" edge="1" parent="1" source="449">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2440" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="449" value="дорожные карты" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="2280" y="165" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="461" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="450" target="277">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2990" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2960" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="450" value="шаблоны дорожных карт" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="2280" y="124.99999999999999" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="189" target="260">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="3050" y="157.5" as="sourcePoint"/>
+                        <mxPoint x="3160" y="177.5" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="456" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="260" target="150">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="3270" y="197.5" as="sourcePoint"/>
+                        <mxPoint x="3370" y="197.5" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

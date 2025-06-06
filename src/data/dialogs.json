@@ -1,0 +1,14 @@
+[
+    {
+        "message": "message 1",
+        "message_datetime": "2001-01-01",
+        "manager_id": 1,
+        "intern_id": 2
+    },
+    {
+        "message": "message 2",
+        "message_datetime": "2001-01-02",
+        "manager_id": 1,
+        "intern_id": 2
+    }
+]

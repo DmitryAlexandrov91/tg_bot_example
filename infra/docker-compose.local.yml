@@ -1,0 +1,29 @@
+volumes:
+  pg_data:
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: db-cont
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    env_file: ../src/.env
+  redis:
+    image: redis:latest
+    container_name: redis-cont
+    ports:
+      - 6379:6379
+  bot:
+    build: ../src
+    container_name: bot-cont
+    environment:
+      POSTGRES_HOST: db
+      REDIS_HOST: redis
+    volumes:
+      - ../src:/src
+    depends_on:
+      - db
+      - redis
+    command: python main.py
+

@@ -1,0 +1,21 @@
+[
+    {
+        "created_at": "2001-01-01",
+        "expires_at": "2001-01-02",
+        "link_token": "sdfgsh",
+        "user_id": 2
+    },
+    {
+        "created_at": "2001-01-01",
+        "expires_at": "2001-01-02",
+        "link_token": "dtyjsfn",
+        "user_id": 3
+    },
+    {
+        "created_at": "2001-01-01",
+        "expires_at": "2001-01-02",
+        "link_token": "sdfdbdfb",
+        "user_id": 6
+    }
+
+]

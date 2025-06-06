@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Test 1",
+        "restaurant_id": 1,
+        "time_respond": 20
+    },
+    {
+        "name": "Test 2",
+        "restaurant_id": 1,
+        "time_respond": 20
+    },
+    {
+        "name": "Test 3",
+        "restaurant_id": 2,
+        "time_respond": 20
+    },
+    {
+        "name": "Test 4",
+        "restaurant_id": 2,
+        "time_respond": 20
+    }
+]

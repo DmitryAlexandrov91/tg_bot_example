@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Test 1",
+        "referencepoint_id": 2,
+        "time_respond": 20
+    },
+    {
+        "name": "Test 2",
+        "referencepoint_id": 5,
+        "time_respond": 20
+    }
+]

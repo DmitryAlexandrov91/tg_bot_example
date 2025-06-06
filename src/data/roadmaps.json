@@ -1,0 +1,20 @@
+[
+    {
+        "reason_termination": "reason_termination",
+        "name": "Онбординг бармена (Москва)",
+        "description": "Адаптация для бармена"
+    },
+    {
+        "reason_termination": "reason_termination",
+        "name": "Онбординг официанта (Москва)",
+        "description": "Адаптация для официанта"
+    },
+    {
+        "name": "Онбординг стажера СПб",
+        "description": "Адаптация в СПб"
+    },
+    {
+        "name": "Онбординг стжера Екатеринбург",
+        "description": "Адаптация в ЕКб"
+    }
+]

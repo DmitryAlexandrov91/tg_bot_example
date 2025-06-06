@@ -1,0 +1,26 @@
+[
+    {
+        "referencepoint_id": 1,
+        "text": "Text 1",
+        "need_feedback": true,
+        "feedbacks": ["1", "2"],
+        "links": ["https://i.pinimg.com/736x/19/88/ff/1988ffc45c4637f6c88f9fbc10ce072b.jpg"],
+        "servise_notes": ["Посмотри картинку"]
+    },
+    {
+        "referencepoint_id": 5,
+        "text": "Text 2",
+        "need_feedback": true,
+        "feedbacks": ["1", "2"],
+        "links": ["https://i.pinimg.com/736x/19/88/ff/1988ffc45c4637f6c88f9fbc10ce072b.jpg"],
+        "servise_notes": ["Посмотри картинку"]
+    },
+    {
+        "referencepoint_id": 8,
+        "text": "Text 3",
+        "need_feedback": true,
+        "feedbacks": ["1", "2"],
+        "links": ["https://i.pinimg.com/736x/19/88/ff/1988ffc45c4637f6c88f9fbc10ce072b.jpg"],
+        "servise_notes": ["Посмотри картинку"]
+    }
+]

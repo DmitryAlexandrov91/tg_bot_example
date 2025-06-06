@@ -1,0 +1,58 @@
+[
+    {
+        "templatetest_id": 1,
+        "text_question": "Вопрос 1",
+        "correct_answer": 2,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 1,
+        "text_question": "Вопрос 2",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 2,
+        "text_question": "Вопрос 1",
+        "correct_answer": 2,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 2,
+        "text_question": "Вопрос 2",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 3,
+        "text_question": "Вопрос 1",
+        "correct_answer": 2,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 3,
+        "text_question": "Вопрос 2",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 4,
+        "text_question": "Вопрос 1",
+        "correct_answer": 2,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    },
+    {
+        "templatetest_id": 4,
+        "text_question": "Вопрос 2",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"]
+
+    }
+]

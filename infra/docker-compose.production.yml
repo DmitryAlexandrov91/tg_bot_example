@@ -1,0 +1,45 @@
+volumes:
+  pg_data:
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: db-cont
+    env_file:
+      - .env
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports: 
+     - "127.0.0.1:5432:5432"
+  redis:
+    image: redis:latest
+    command: ["redis-server", "--requirepass", "${REDIS_PASSWORD}"]
+    container_name: redis-cont
+    env_file:
+      - .env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports: 
+      - "127.0.0.1:6379:6379"
+  bot:
+    image: ${DOCKER_USERNAME}/bot:latest
+    container_name: bot-cont
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    command: python main.py

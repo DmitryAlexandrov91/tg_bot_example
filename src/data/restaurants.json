@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Ресторан на Арбате",
+        "full_address": "г. Москва, ул. Арбат, д. 1",
+        "short_address": "ул. Арбат",
+        "contact_information": "+7 495 123-45-67"
+    },
+    {
+        "name": "ГастроПаб Питер",
+        "full_address": "г. Санкт-Петербург, Невский пр., д. 45",
+        "short_address": "Невский пр.",
+        "contact_information": "+7 812 321-45-67"
+    },
+    {
+        "name": "Кафе Екат",
+        "full_address": "г. Екатеринбург, ул. Ленина, д. 10",
+        "short_address": "ул. Ленина",
+        "contact_information": "+7 343 567-89-01"
+    }
+]

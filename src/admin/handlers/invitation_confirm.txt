@@ -1,0 +1,107 @@
+    # await show_summary_and_confirm_invitation(message, state)
+
+
+# @router.callback_query(
+#     lambda c: c.data == 'create_invite:confirm_yes',
+#     InvitationForm.confirm,
+# )
+
+
+# async def callback_confirm_yes(
+#     callback: CallbackQuery,
+#     state: FSMContext,
+#     session: AsyncSession,
+# ) -> None:
+#     """Подтверждение создания."""
+#     data = await state.get_data()
+#     data["created_at"] = json_deserial(data["created_at"])
+#     data["expires_at"] = json_deserial(data["expires_at"])
+#     print('here', data)
+#     if 'editing' in data:
+#         del data['editing']
+#     try:
+#         invite = await invite_crud.create(data, session)
+#         await callback.message.edit_reply_markup()
+#         await callback.message.answer(
+#             f'Для пользователя #{invite.user_id} создана ссылка-приглашение:',
+#         )
+#         await callback.message.answer(
+#             f'https://t.me/smena_trainee_bot?start={invite.link_token}',
+#         )
+#         await state.clear()
+#     except IntegrityError as error:
+#         await callback.message.answer(f'Ошибка при сохранении: {error}')
+
+
+# @router.callback_query(
+#     lambda c: c.data == 'create_invite:redact_field',
+#     InvitationForm.confirm,
+# )
+# async def callback_redact_field(
+#     callback: CallbackQuery,
+#     state: FSMContext,
+# ) -> None:
+#     """Выводим инлайн-клавиатуру с полями для редактирования."""
+#     await callback.message.edit_reply_markup()
+#     await callback.message.answer(
+#         'Выберите поле, которое хотите изменить:',
+#         reply_markup=edit_invite_link_keyboard,
+#     )
+
+
+# @router.callback_query(F.data.startswith('edit_field_invite_before:'))
+# async def callback_edit_specific_field(
+#     call: CallbackQuery,
+#     state: FSMContext,
+# ) -> None:
+#     """Переход к редактированию конкретного поля."""
+#     field_key = call.data.split(':')[1]
+#     fsm_states = {
+#         'expires_at': InvitationForm.expires_at,
+#     }
+#     if field_key not in fsm_states:
+#         await call.message.answer('Ошибка: неизвестное поле.')
+#         return
+#     await state.update_data(editing=True)
+#     await call.message.edit_reply_markup()
+#     await call.message.answer(FIELDS_INVITE[field_key])
+#     field_key=datetime.now()+timedelta(days=int(fsm_states[field_key]))
+#     await state.set_state(fsm_states[field_key])
+
+
+
+Keyboads.py 
+
+# edit_invite_link_keyboard = InlineKeyboardMarkup(
+#     inline_keyboard=[
+#         [
+#             InlineKeyboardButton(
+#                 text=label,
+#                 callback_data=f'edit_field_invite_before:{field_key}',
+#             ),
+#         ]
+#         for field_key, label in [
+#             ('expires_at', 'Срок действия ссылки'),
+#         ]
+#     ],
+# )
+
+
+
+services.py 
+
+
+async def show_summary_and_confirm_invitation(
+    message: Message,
+    state: FSMContext,
+) -> None:
+    """Отображает введенные данные и запрашивает подтверждение."""
+    data = await state.get_data()
+    await message.answer(
+        'Проверьте данные:\n\n'
+        f'1. ID пользователя: {data["user_id"]}\n'
+        f'2. Срок действия короткой ссылки: {data["expires_at"]}\n'
+        'Создать ссылку приглашение или отредактировать поле?',
+        reply_markup=build_confirm_keyboard_for(prefix='create_invite')
+    )
+    await state.set_state(InvitationForm.confirm)

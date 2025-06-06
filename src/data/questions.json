@@ -1,0 +1,44 @@
+[
+    {
+        "test_id": 1,
+        "text_question": "Вопрос 1",
+        "correct_answer": 2,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"],
+        "user_answer": 2
+    },
+    {
+        "test_id": 1,
+        "text_question": "Вопрос 2",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"],
+        "user_answer": 2
+    },
+    {
+        "test_id": 1,
+        "text_question": "Вопрос 3",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"],
+        "user_answer": 2
+    },
+    {
+        "test_id": 2,
+        "text_question": "Вопрос 1",
+        "correct_answer": 2,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"],
+        "user_answer": 2
+    },
+    {
+        "test_id": 2,
+        "text_question": "Вопрос 2",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"],
+        "user_answer": 2
+    },
+    {
+        "test_id": 2,
+        "text_question": "Вопрос 3",
+        "correct_answer": 1,
+        "answers": ["Ответ 1", "Ответ 2", "Ответ 3"],
+        "user_answer": 2
+    }
+]

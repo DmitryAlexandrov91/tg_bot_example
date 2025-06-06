@@ -1,0 +1,110 @@
+from datetime import datetime
+
+from aiogram import Router
+from aiogram.filters import Command, CommandObject, CommandStart
+from aiogram.types import Message
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from admin.keyboards import admin_keyboard
+from crud import invite_crud, user_crud
+from models.constants import UserRole
+from models.models import User
+
+router = Router(name='start_help')
+
+
+@router.message(CommandStart())
+async def cmd_start(
+    message: Message,
+    session: AsyncSession,
+    command: CommandObject,
+    user: User,
+) -> Message:
+    """Обрабатывает старт.
+
+    1) Если в args передан token — обрабатываем приглашение.
+    2) Иначе, если user нет — не авторизован.
+    3) Иначе — отправляем приветствие.
+    """
+    args = command.args
+    if args:
+        invit = await invite_crud.get(obj_id=args, session=session)
+        if invit and not invit.is_used and invit.expires_at > datetime.now():
+            invited_user = await user_crud.get(invit.user_id, session)
+            await user_crud.update(
+                invited_user,
+                {'tg_id': message.from_user.id},
+                session,
+            )
+            invit.is_used = True
+            session.add(invit)
+            await session.commit()
+            return await message.answer(
+                'Приглашение принято! Пожалуйста, заполните профиль.',
+            )
+        return await message.answer(
+            'Ссылка недействительна или просрочена.',
+        )
+    if not user.is_active:
+        return await message.reply('Вы заблокированы!')
+
+    #  проверяем роль
+    match user.role:
+        case UserRole.ADMIN:
+            text = 'Привет Админ'
+            keyboard = admin_keyboard
+        # case UserRole.MANAGER:
+        #     text = 'Привет Манагер'
+        #     keyboard = manager_keyboard
+        # case UserRole.USER:
+        #     text = 'Привет Стажёр!'
+        #     keyboard = intern_keyboard
+        case _:
+            text = 'Вы кто?'
+            keyboard = None
+
+    return await message.answer(
+        text,
+        reply_markup=keyboard,
+    )
+
+
+admin_help_text = (
+    'Доступные команды:\n\n'
+    'Слэш-команды:\n'
+    '• /create_user – создать пользователя\n'
+    '• /edit_user <id> field=value – редактировать пользователя\n'
+    '• /block_user <id> – заблокировать пользователя\n\n'
+    '• /create_restaurant – создать ресторан\n'
+    '• /edit_restaurant <id> field=value – редактировать ресторан\n'
+    '• /block_restaurant <id> – удалить ресторан\n'
+    '• /assign_user <user_id> <rest_id> – привязать польз. к ресторану\n\n'
+    '• /gen_invite <user_id> <days> – сгенерировать приглашение\n\n'
+    'Или просто нажмите одну из кнопок в меню ниже'
+)
+
+
+@router.message(Command('help'))
+async def cmd_help(
+    message: Message,
+    user: User,
+) -> Message:
+    """Показывает доступные команды и меню."""
+    if not user.is_active:
+        return await message.reply('Вы заблокированы!')
+
+    match user.role:
+        case UserRole.ADMIN:
+            text = admin_help_text
+            keyboard = admin_keyboard
+        # case UserRole.MANAGER:
+        #     text = 'Привет Манагер'
+        #     keyboard = manager_keyboard
+        # case UserRole.USER:
+        #     text = 'Привет Стажёр!'
+        #     keyboard = intern_keyboard
+        case _:
+            text = 'Вы кто?'
+            keyboard = None
+
+    return await message.answer(text, reply_markup=keyboard)

@@ -1,0 +1,76 @@
+[
+    {
+        "name": "name 1",
+        "templateroadmap_id": 1,
+        "order_execution": 1,
+        "point_type": "NOTIFICATION",
+        "is_blocked": false,
+        "auto_closing": true,
+        "restaurant_id": 1
+    },
+    {
+        "name": "name 2",
+        "templateroadmap_id": 1,
+        "order_execution": 2,
+        "point_type": "FEEDBACK_REQUEST",
+        "is_blocked": true,
+        "auto_closing": false,
+        "restaurant_id": 1
+    },
+    {
+        "name": "name 3",
+        "templateroadmap_id": 1,
+        "order_execution": 3,
+        "point_type": "TEST",
+        "is_blocked": false,
+        "auto_closing": true,
+        "restaurant_id": 1,
+        "test_id": 1
+    },
+    {
+        "name": "name 4",
+        "templateroadmap_id": 2,
+        "order_execution": 1,
+        "point_type": "FEEDBACK_REQUEST",
+        "is_blocked": false,
+        "auto_closing": true,
+        "restaurant_id": 1
+    },
+    {
+        "name": "name 5",
+        "templateroadmap_id": 2,
+        "order_execution": 2,
+        "point_type": "NOTIFICATION",
+        "is_blocked": true,
+        "auto_closing": false,
+        "restaurant_id": 1
+    },
+    {
+        "name": "name 6",
+        "templateroadmap_id": 2,
+        "order_execution": 3,
+        "point_type": "TEST",
+        "is_blocked": false,
+        "auto_closing": false,
+        "restaurant_id": 1,
+        "test_id": 1
+    },
+    {
+        "name": "name 7",
+        "templateroadmap_id": 2,
+        "order_execution": 4,
+        "point_type": "FEEDBACK_REQUEST",
+        "is_blocked": false,
+        "auto_closing": true,
+        "restaurant_id": 1
+    },
+    {
+        "name": "name 8",
+        "templateroadmap_id": 2,
+        "order_execution": 5,
+        "point_type": "NOTIFICATION",
+        "is_blocked": false,
+        "auto_closing": true,
+        "restaurant_id": 1
+    }
+]

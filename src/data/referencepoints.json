@@ -1,0 +1,76 @@
+[
+    {
+        "name": "name 1",
+        "trigger_datetime": "2001-01-01",
+        "check_datetime": "2001-01-02",
+        "completion_datetime": "2001-01-02",
+        "roadmap_id": 1,
+        "order_execution": 1,
+        "is_blocked": false,
+        "is_completed": true,
+        "point_type": "FEEDBACK_REQUEST",
+        "auto_closing": true
+    },
+    {
+        "name": "name 2",
+        "trigger_datetime": "2001-01-03",
+        "check_datetime": "2001-01-04",
+        "completion_datetime": "2001-01-03",
+        "roadmap_id": 1,
+        "order_execution": 2,
+        "is_blocked": true,
+        "reminder_days_before": 1,
+        "is_completed": true,
+        "point_type": "TEST",
+        "auto_closing": true
+    },
+    {
+        "name": "name 3",
+        "trigger_datetime": "2001-01-05",
+        "check_datetime": "2001-01-06",
+        "roadmap_id": 1,
+        "order_execution": 3,
+        "is_blocked": false,
+        "reminder_days_before": 1,
+        "is_completed": false,
+        "point_type": "NOTIFICATION",
+        "auto_closing": false
+    },
+    {
+        "name": "name 4",
+        "trigger_datetime": "2001-01-01",
+        "check_datetime": "2001-01-02",
+        "completion_datetime": "2001-01-02",
+        "roadmap_id": 2,
+        "order_execution": 1,
+        "is_blocked": false,
+        "is_completed": true,
+        "point_type": "FEEDBACK_REQUEST",
+        "auto_closing": true
+    },
+    {
+        "name": "name 5",
+        "trigger_datetime": "2001-01-03",
+        "check_datetime": "2001-01-04",
+        "completion_datetime": "2001-01-03",
+        "roadmap_id": 2,
+        "order_execution": 2,
+        "is_blocked": true,
+        "reminder_days_before": 1,
+        "is_completed": true,
+        "point_type": "TEST",
+        "auto_closing": true
+    },
+    {
+        "name": "name 6",
+        "trigger_datetime": "2001-01-05",
+        "check_datetime": "2001-01-06",
+        "roadmap_id": 2,
+        "order_execution": 3,
+        "is_blocked": false,
+        "reminder_days_before": 1,
+        "is_completed": false,
+        "point_type": "NOTIFICATION",
+        "auto_closing": false
+    }
+]
